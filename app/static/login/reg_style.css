@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#container input{
+    width: 50%;
+}
+
+#register{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Wild Acre Brewing Company</h1>
+    <h3>Order a Beer!</h3>
+    <form action="/process_order" method="POST">
+    {% csrf_token %}
+        <p for='table_number'>Table Number:</p>
+        <select name="table_number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <p for='beer'>Beer:</p>
+        <select name='beer'>
+            {% for beer in all_beers %}
+                <option value="{{beer.id}}">{{beer.name}} ${{beer.price}}</option>
+            {% endfor %}
+        </select>
+        <p for='quantity'>Quantity</p>
+        <select name='quantity'>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button>submit</button>
+    </form>
+    <h3>View order</h3>
+    <a href="/view_order/{{user.id}}"><button>view order</button></a>
+    <form action="/logout">
+        {% csrf_token %}
+            <button>Logout</button>
+        </form>
+</body>
+</html>

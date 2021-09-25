@@ -1,0 +1,51 @@
+Date : 2021-09-24 16:47:14
+Directory : /Users/dougholmes/Desktop/python_stack/django/dojo_project/project
+Total : 19 files,  449 codes, 69 comments, 85 blanks, all 603 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |         14 |        281 |         69 |         81 |        431 |
+| HTML     |          4 |        157 |          0 |          3 |        160 |
+| CSS      |          1 |         11 |          0 |          1 |         12 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                 |         19 |        449 |         69 |         85 |        603 |
+| app                                                                                               |         14 |        357 |         19 |         41 |        417 |
+| app/migrations                                                                                    |          2 |         45 |          1 |          8 |         54 |
+| app/static                                                                                        |          1 |         11 |          0 |          1 |         12 |
+| app/static/login                                                                                  |          1 |         11 |          0 |          1 |         12 |
+| app/templates                                                                                     |          4 |        157 |          0 |          3 |        160 |
+| project                                                                                           |          4 |         77 |         48 |         39 |        164 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                          | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/__init__.py                | Python   |          0 |          0 |          1 |          1 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/admin.py                   | Python   |          5 |         10 |          1 |         16 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/apps.py                    | Python   |          3 |          0 |          3 |          6 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/migrations/0001_initial.py | Python   |         45 |          1 |          7 |         53 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/migrations/__init__.py     | Python   |          0 |          0 |          1 |          1 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/models.py                  | Python   |         59 |          2 |          6 |         67 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/static/login/reg_style.css | CSS      |         11 |          0 |          1 |         12 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/templates/index.html       | HTML     |         48 |          0 |          0 |         48 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/templates/main.html        | HTML     |         24 |          0 |          1 |         25 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/templates/order.html       | HTML     |         48 |          0 |          0 |         48 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/templates/view_order.html  | HTML     |         37 |          0 |          2 |         39 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/tests.py                   | Python   |          1 |          1 |          2 |          4 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/urls.py                    | Python   |         13 |          0 |          3 |         16 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/app/views.py                   | Python   |         63 |          5 |         13 |         81 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/manage.py                      | Python   |         15 |          2 |          5 |         22 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/project/__init__.py            | Python   |          0 |          0 |          1 |          1 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/project/settings.py            | Python   |         67 |         25 |         31 |        123 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/project/urls.py                | Python   |          6 |         15 |          2 |         23 |
+| /Users/dougholmes/Desktop/python_stack/django/dojo_project/project/project/wsgi.py                | Python   |          4 |          8 |          5 |         17 |
+| Total                                                                                             |          |        449 |         69 |         85 |        603 |
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
